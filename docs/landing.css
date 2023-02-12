@@ -39,6 +39,8 @@ p {
 }
 
 .rightImage {
+	width: 100%;
+  height: auto;
 	max-width: 250px;
   float: right;
   margin: 0px 0px 0px 0px;
@@ -47,6 +49,8 @@ p {
 }
 
 .leftImage {
+	width: 100%;
+  height: auto;
 	max-width: 300px;
   float: left;
   margin: 0px 10px 0px 0px;
