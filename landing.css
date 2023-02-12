@@ -1,0 +1,68 @@
+p {
+	text-indent: 20px;
+}
+
+.responsive {
+	width: 100%;
+  max-width: 850px;
+  height: auto;
+}
+
+.button {
+	background-color:#ec407a;
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	letter-spacing: .5px;
+	cursor: pointer;
+	font-size: 14px;
+	outline: 0;
+	margin: 20px;
+}
+
+.lotto{
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+}
+
+.rightImage {
+	max-width: 250px;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+
+}
+
+.leftImage {
+	max-width: 300px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 430px) {
+  .rightImage {
+    max-width: 150px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .leftImage {
+    max-width: 150px; 
+  }
+}
