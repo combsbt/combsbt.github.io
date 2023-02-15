@@ -43,6 +43,28 @@
 "name":"Advice"}}]}]
 
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "The Best Restaurants in Richmond, VA",
+    "image": [
+      "https://kilrva.com/sabai.webp"
+     ],
+    "datePublished": "2015-02-12T08:00:00+08:00",
+    "dateModified": "2015-02-15T09:20:00+08:00",
+    "author": [{
+        "@type": "Organization",
+        "name": "Keep It Local RVA",
+        "url": "https://keepitlocalrva.web.app"
+      },{
+        "@type": "Person",
+        "name": "Bryan Combs",
+        "url": "https://kilrva.com"
+    }]
+  }
+</script>
+
 
 <script type="application/ld+json">
 {
